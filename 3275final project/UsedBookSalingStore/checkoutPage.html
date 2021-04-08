@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Used book system checkout page</title>
+         <link  rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="app-container" >
+            <div class="top-box">
+                <p><a href="inc/Controller/Store_buyer_home.php"><span class="left-icon">&#x2190;back</span></a>CHECKOUT
+                    <span class="right-icon">&#xb7;&#xb7;&#xb7;</span></p>
+            </div> 
+            <div class="middle-box">
+                <h1>1500<span>$</span></h1>
+                <p>Pay to xyz</p>
+            </div>
+            <div class="bottom-box">
+                <button type="button" class="payment-option-btn">Pay with paypal</button>
+                <button type="button" class="payment-option-btn">Pay with card</button>
+                <div class="card-details">
+                    <p>Pay using credit card or debit card</p>
+                    <div class="card-number-feild-group">
+                        <label>Card Number:</label><br>
+                        <input type="text" class="card-number" placeholder="xxxx xxxx xxxx xxxx">
+
+                    </div>
+                    <div class="date-feild-group">
+                        <label>Expiry-date</label><br>
+                        <input type="text" class="datefeild" placeholder="mm">
+                        <input type="text" class="datefeild" placeholder="yy">
+
+                    </div>
+                    <div class="cvc-feild-group">
+                        <label>CVC</label><br>
+                        <input type="text" class="cvc-feild" placeholder="xxx">
+
+                    </div>
+                    <div class="name-feild-group">
+                        <label>Card Holder Name</label><br>
+                        <input type="text" class="name-feild" placeholder="type your name">
+
+                    </div>
+                    <button type="button" class="pay-btn">Pay Now</button>
+                </div>
+            </div>
+        </div>       
+    </body>
+</html>
